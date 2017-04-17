@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Tic Tac Toc javascript Upscale</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+<div class="col div_box">
+    <h1>Tic-Tac-Toe</h1>
+    <div class="mes_box">
+        <div id="end_massegeWinHuman" class="end_massege">You Win!</div>
+        <div id="end_massegeWinAi" class="end_massege">Computer Win!</div>
+        <div id="end_massegeDraw" class="end_massege">It's a Tie!</div>
+    </div>
+    <div class="tic_wraper">
+        <div id="overlay"><span id="line"></span></div>
+        <div class="row">
+            <div class="box" id="0" onclick="addicon(0, 'human')"></div>
+            <div class="box" id="1" onclick="addicon(1, 'human')"></div>
+            <div class="box" id="2" onclick="addicon(2, 'human')"></div>
+        </div>
+        <div class="row">
+            <div class="box" id="3" onclick="addicon(3, 'human')"></div>
+            <div class="box" id="4" onclick="addicon(4, 'human')"></div>
+            <div class="box" id="5" onclick="addicon(5, 'human')"></div>
+        </div>
+        <div class="row">
+            <div class="box" id="6" onclick="addicon(6, 'human')"></div>
+            <div class="box" id="7" onclick="addicon(7, 'human')"></div>
+            <div class="box" id="8" onclick="addicon(8, 'human')"></div>
+        </div>
+    </div>
+    <button id="start_button" onclick="reload()">Start new game</button>
+</body>
+</html>

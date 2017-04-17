@@ -1,7 +1,7 @@
 # dvikster.github.io
-Upscale project
-About me page
+Upscale projects<br>
+<strong>About me page</strong>A
 
 
-Tic-Tac-Toe
+<strong>ATic-Tac-Toe</strong>A<br>
 https://dvikster.github.io/tic-tac-toe/index.html
