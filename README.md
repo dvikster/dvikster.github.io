@@ -8,4 +8,4 @@ https://dvikster.github.io/
 https://dvikster.github.io/tic-tac-toe/index.html
 
 <strong>CSS Framework/strong>A
-https://dvikster.github.io/task-css/index.html
+https://dvikster.github.io/taskcss/index.html
