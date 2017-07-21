@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Київське метро - пошук маршруту</title>
+    <meta name="description" content="Київське метро - пошук маршруту метро від станції відправлення до станції прибуття в місті Київ"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/css.css"/>
+</head>
+<body>
+<header></header>
+
+
+<div class="container">
+    <div class="row">
+        <div class="input-field col s6">
+            <h2>Станція відправлення</h2>
+            <select id="start">
+                <option value="" disabled selected>Виберіть станцію відправлення</option>
+            </select>
+        </div>
+        <div class="input-field col s6">
+            <h2>Станція прибуття</h2>
+            <select id="finish">
+                <option value="" disabled selected>Виберіть станцію відправлення</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s12">
+            <button  class="waves-effect waves-light btn" id="rezult">Розрахувати маршрут</button>
+            <div id="out"></div>
+        </div>
+    </div>
+</div>
+<main></main>
+<footer class="page-footer"></footer>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/metro_js.js"></script>
+</body>
+</html>
